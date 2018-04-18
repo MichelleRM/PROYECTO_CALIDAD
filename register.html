@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Formulario Login</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500" >
+    <link rel="stylesheet" href="css/registro.css">
+    
+  </head>
+
+  <body>
+
+  <div class="container-fluid" >
+      <div class="my-image" >
+          <img src="image/registro.jpg" >
+      </div>
+
+      <div class="my-content" >
+
+        <div>
+            <div class="row">
+
+                <div class="col-sm-9  mytitle" >
+                    <h1>Formulario de Registro</h1>
+                </div>
+
+            </div >
+
+            <div class="row" >
+
+                <div class="col-sm-9 ">
+
+                    <div class="myform-bottom">
+                        <fieldset>
+                            <legend > - Informacion Personal </legend>
+                            <form role="form" method="post" >
+
+                            <div class="form-group">
+                                <input type="text" name="form-firtsname" placeholder="Nombres..." class="form-control" id="form-firtsname" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" name="form-lastname" placeholder="Apellidos..." class="form-control" id="form-lastname" required>
+                            </div>
+                              <div class="form-group">
+                                  <input type="text" name="form-nameuser" placeholder="Nombre de Usuario..." class="form-control" id="form-nameuser" required>
+                              </div>
+                            <div class="form-group">
+                                <input type="email" name="form-email" placeholder="Email..." class="form-control" id="form-email" required>
+                            </div>
+                              <div class="form-group">
+                                  <input type="password" name="form-password" placeholder="Contraseña..." class="form-control" id="form-password" required>
+                              </div>
+
+                          </form>
+                        </fieldset>
+                        <fieldset>
+                            <legend > - Informacion del Negocio </legend>
+                            <form   >
+                                <div class="form-group">
+                                    <input type="text" name="form-nameempresa" placeholder="Nombre de la empresa..." class="form-control" id="form-nameempresa" required>
+                                </div>
+                                <div class="my-formulario">
+                                    <input type="radio" name="tipo-negocio" id="solo-prod">
+                                    <label for="solo-prod">Negocio de solo productos </label><br>
+                                    <input type="radio" name="tipo-negocio" id="ser-prod">
+                                    <label for="ser-prod">Negocio de productos y servicios</label><br>
+                                    <input type="radio" name="tipo-negocio" id="comida">
+                                    <label for="comida">Vendedor de platos de comida</label>
+                                </div>
+                            </form>
+                        </fieldset>
+                        <a href="servicios/mi_cuenta_servicios.html">
+                            <button type="submit" class="mybtn" >Registrarme</button>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+  </div>
+    <!-- Enlazamos el js de Bootstrap, y otros plugins que usemos siempre al final antes de cerrar el body -->
+
+  <script type="text/javascript">
+      var hg = document.getElementById('container').style.height;
+      var obj = document.getElementById('imagen');
+      obj.style.height= hg +"px" ;
+  </script>
+
+  <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
