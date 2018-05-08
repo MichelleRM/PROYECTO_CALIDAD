@@ -9,6 +9,14 @@
     <link rel="stylesheet" href="../css/reg_ubicacion.css">
     <link rel="stylesheet" href="../css/cuenta.css">
     <link rel="stylesheet" href="../css/style.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).on('load', function() {
+            $('#slider').nivoSlider();
+        });
+    </script>
 </head>
 <body>
     <header>
@@ -22,7 +30,7 @@
         <nav class="navbar navbar-static-top" role="navigation">
           <ul class="ul1">
                 <li class="l1">
-                    <a href="#" ><span class=" span1"><i  class="icon icon-home"></i></span>Inicio</a>
+                    <a href="mi_cuenta%20_productos.html" ><span class=" span1"><i  class="icon icon-home"></i></span>Inicio</a>
                 </li>
                 <li class="l1">
                     <a href="#" >
@@ -44,9 +52,6 @@
                 <li class="l1">
                     <a href="#" ><span class="span5"><i class=" icon icon-happy"></i></span>Usuario</a>
                     <ul class="ul2">
-                        <li class="l2 submenu">
-                            <a href="mi_cuenta_productos.html" >Mi cuenta</a>
-                        </li>
                         <li class="l2">
                             <a href="../login.html">Cerrar Sesion</span>
                             </a>
@@ -57,10 +62,31 @@
         </nav>
     </div>
 
-</header>
-    
+    </header>
+
+    <div class="myslide">
+        <div class="slider-wrapper theme-mi-slider">
+            <div id="slider" class="nivoSlider">
+                <img src="../img/im1.jpg" alt="" title="#htmlcaption1" />
+                <img src="../img/im2.jpg" alt="" title="#htmlcaption2" />
+                <img src="../img/im3.jpg" alt="" title="#htmlcaption3" />
+            </div>
+            <div id="htmlcaption1" class="nivo-html-caption">
+                <h1>Sean Bienvenidos</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            </div>
+            <div id="htmlcaption2" class="nivo-html-caption">
+                <h1>Acerca de Nosotros</h1>
+            </div>
+            <div id="htmlcaption3" class="nivo-html-caption">
+                <h1>Gracias por visitar</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="mycaja">
         <div class="caja">
-            <img src="../image/sidebar_usuario-corporativo.png" >
+            <img src="../img/sidebar_usuario-corporativo.png" >
             <h2 class="h2">USUARIO</h2>
             <h2> Usuario1313165164 </h2>
             <h2 class="h2">CONTRASEÑA</h2>
@@ -88,9 +114,10 @@
                 ullamco, e legam expetendis tractavissent.
             </p>
             <a href="reg_ub_productos.html">
-            <button type="submit" class="bdiv ">Editar</button>    
+                <button type="submit" class="bdiv ">Editar</button>
             </a>
-            
+
         </div>
+    </div>
 </body>
 </html>

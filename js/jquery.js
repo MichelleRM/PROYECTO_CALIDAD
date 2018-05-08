@@ -5282,7 +5282,7 @@
         special: {
             load: {
 
-                // Prevent triggered image.load events from bubbling to window.load
+                // Prevent triggered img.load events from bubbling to window.load
                 noBubble: true
             },
             focus: {

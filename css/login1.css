@@ -5,7 +5,7 @@ body {
     color: #fff;
     line-height: 30px;
     text-align: center;
-    background-image: url(../image/login.jpg);
+    background-image: url(../img/login.jpg);
     background-size:100% 100%;
     background-attachment: fixed;
 
@@ -36,9 +36,7 @@ h3 {
 
 /*Contenedor total*/
 
-.my-content {
-    padding: 100px 0 170px 0;
-}
+
 .my-content .mydescription {
     margin: 20px 0 10px 0;
 }
@@ -53,7 +51,7 @@ h3 {
 }
 
 .myform-cont {
-    margin-top: 35px;
+    margin-top: 50px;
 }
 .myform-top {
     overflow: hidden;
