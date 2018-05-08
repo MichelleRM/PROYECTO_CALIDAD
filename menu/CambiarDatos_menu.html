@@ -22,41 +22,34 @@
         <nav class="navbar navbar-static-top" role="navigation">
             <ul class="ul1">
                 <li class="l1">
-                    <a href="mi_cuenta_servicios.html" ><span class=" span1"><i  class="icon icon-home"></i></span>Inicio</a>
-                </li>
-                <li class="l1">
-                    <a href="#" ><span class=" span2 "><i class="icon-user-tie"></i></span>Profesionales</a>
-                    <ul class="ul2">
-                        <li class="l2 ">
-                            <a href="#" > Ingresar </a>
-                        </li>
-                        <li class="l2">
-                            <a href="#" > Revisar </a>
-                        </li>
-                    </ul>
+                    <a href="mi_cuenta_menu.html" ><span class=" span1"><i  class="icon icon-home"></i></span>Inicio</a>
                 </li>
                 <li class="l1">
                     <a href="#" >
-                        <span class="span3"><i class="icon-paste"></i></span>Inventario</span>
+                        <span class="span3"><i class="icon-spoon-knife"></i></span>Menu</span>
                     </a>
                     <ul class="ul2">
                         <li class="l2 submenu">
-                            <a href="#" >Ingresar</a>
+                            <a href="#" > Ingresar </a>
                             <ul class="ul3 children">
                                 <li class="l2">
-                                    <a href="#" >Ropa </a>
+                                    <a href="#" >Menus </a>
                                 </li>
                                 <li class="l2">
-                                    <a href="#" >Productos</a>
-                                </li>
-                                <li class="l2">
-                                    <a href="#" >Servicios</a>
+                                    <a href="#" >Extras</a>
                                 </li>
                             </ul>
                         </li>
-                        <li class="l2">
-                            <a href="#">Revisar </span>
-                            </a>
+                        <li class="l2 submenu">
+                            <a href="#" > Revisar </a>
+                            <ul class="ul3 children">
+                                <li class="l2">
+                                    <a href="#" >Menus </a>
+                                </li>
+                                <li class="l2">
+                                    <a href="#" >Extras</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -67,8 +60,7 @@
                     <a href="#" ><span class="span5"><i class=" icon icon-happy"></i></span>Usuario</a>
                     <ul class="ul2">
                         <li class="l2">
-                            <a href="../login.html">Cerrar Sesion</span>
-                            </a>
+                            <a href="../login.html">Cerrar Sesion</a>
                         </li>
                     </ul>
                 </li>
@@ -82,34 +74,24 @@
         <div class="row">
             <div class="col-sm-6 col-sm-offset-3 myform-cont" >
                 <div class="myform-top">
-                        <h3>Datos de mi negocio</h3>
+                        <h3>Datos Personales</h3>
                 </div>
                 <div class="myform-bottom">
                     <form role="form" action="" method="post" class="">
                         <div class="gr1 form-group">
                             <input type="text" name="form-firtsname" placeholder="Nombres..." class="form-control" id="form-firtsname">
                         </div>
-                        <div>
-                            <div class="hora form-group">
-                                <input type="text" name="form-horainicio" placeholder="Hora inicio..." class="form-control" id="form-horainicio">
-                            </div>
-                            <div class="hora form-group">
-                                <h3 class="gu"> - </h3>
-                            </div>
-                            <div class="hora form-group">
-                                <input type="text" name="form-horafin" placeholder="Hora fin..." class="form-control" id="form-horafin">
-                            </div>
+                        <div class="gr1 form-group">
+                            <input type="text" name="form-lastname" placeholder="Apellidos..." class="form-control" id="form-lastname">
                         </div>
-                        <div>
-                            <div class="ubi form-group">
-                                <input type="text" name="form-ubicacion" placeholder="Ubicacion..." class="form-control" id="form-ubicacion">
-                            </div>
-                            <div class="ubi bt form-group">
-                                <a href="login.html" ><span class="bot"><i class=" iconbt icon-compass2"></i></span></a>
-                            </div>
+                        <div class="gr1 form-group">
+                            <input type="text" name="form-dni" placeholder="DNI..." class="form-control" id="form-dni">
+                        </div>
+                        <div class="gr1 form-group">
+                            <input type="text" name="form-telefono" placeholder="Telefono..." class="form-control" id="form-telefono">
                         </div>
                         <div class="form-group">
-                            <input type="text" name="form-telefono" placeholder="Telefono..." class="form-control" id="form-telefono">
+                            <input type="email" name="form-email" placeholder="Email..." class="form-control" id="form-email" required>
                         </div>
                     </form>
                     <button type="submit" class="mybtn">Guardar cambios</button>

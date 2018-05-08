@@ -193,6 +193,8 @@ h3 {
 }
 
 input[type="text"],
+input[type="password"],
+input[type="email"],
 textarea,
 textarea.form-control {
     height: 50px;
@@ -206,6 +208,8 @@ textarea.form-control {
 }
 
 input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
 textarea:focus,
 textarea.form-control:focus {
     background: #fff;
